@@ -1,39 +1,12 @@
 {
   "tag": "html",
   "attr": {
-    "lang": "en",
-    "class": [
-      "",
-      "sizes",
-      "customelements",
-      "history",
-      "pointerevents",
-      "postmessage",
-      "webgl",
-      "websockets",
-      "cssanimations",
-      "csscolumns",
-      "csscolumns-width",
-      "csscolumns-span",
-      "csscolumns-fill",
-      "csscolumns-gap",
-      "csscolumns-rule",
-      "csscolumns-rulecolor",
-      "csscolumns-rulestyle",
-      "csscolumns-rulewidth",
-      "csscolumns-breakbefore",
-      "csscolumns-breakafter",
-      "csscolumns-breakinside",
-      "flexbox",
-      "picture",
-      "srcset",
-      "webworkers"
-    ]
+    "lang": "en"
   },
   "child": [
     {
       "tag": "head",
-      "text": "\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n",
+      "text": "\n    \n    \n    \n    \n\n    \n    \n  ",
       "child": [
         {
           "tag": "meta",
@@ -44,97 +17,26 @@
         {
           "tag": "meta",
           "attr": {
-            "http-equiv": "x-ua-compatible",
-            "content": "ie=edge"
-          }
-        },
-        {
-          "tag": "meta",
-          "attr": {
-            "name": "description",
-            "content": ""
-          }
-        },
-        {
-          "tag": "meta",
-          "attr": {
             "name": "viewport",
             "content": "width=device-width, initial-scale=1, shrink-to-fit=no"
           }
         },
         {
+          "tag": "meta",
+          "attr": {
+            "name": "author",
+            "content": "Mitchell van der Wurf"
+          }
+        },
+        {
           "tag": "title",
-          "text": "Glazenwasserij Mubo || Home"
+          "text": "Project OP2"
         },
         {
           "tag": "link",
           "attr": {
-            "rel": "shortcut icon",
-            "href": "assets/img/favicon.ico",
-            "type": "image/png"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/animate.min.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/bootstrap.min.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/font-awesome.min.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/flaticon.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/nice-select.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/magnific-popup.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/slick.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/default.css"
-          }
-        },
-        {
-          "tag": "link",
-          "attr": {
-            "rel": "stylesheet",
-            "href": "assets/css/style.min.css"
+            "href": "css/bootstrap.css",
+            "rel": "stylesheet"
           }
         }
       ]
@@ -142,1542 +44,96 @@
     {
       "tag": "body",
       "attr": {
+        "class": [
+          "text-center"
+        ],
         "style": ""
       },
-      "text": "\n\n\t\n\t\n\n\t \n    \n    \n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\n\n",
+      "text": "\n    \n\n\n\n\n\n",
       "child": [
         {
           "tag": "div",
           "attr": {
-            "id": "preloader",
-            "style": "display: none;"
-          },
-          "text": "\n\t\t\n\t",
-          "child": [
-            {
-              "tag": "div",
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
-                {
-                  "tag": "div"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "header",
-          "attr": {
             "class": [
-              "header-area"
+              "cover-container",
+              "d-flex",
+              "w-100",
+              "h-100",
+              "p-3",
+              "mx-auto",
+              "flex-column"
             ]
           },
-          "text": "\n        \n        \n    ",
+          "text": "\n  \n\n\n",
           "child": [
             {
-              "tag": "div",
+              "tag": "header",
               "attr": {
                 "class": [
-                  "welome-text"
+                  "masthead",
+                  "mb-auto"
                 ]
               },
-              "text": "\n            \n        ",
-              "child": [
-                {
-                  "tag": "p",
-                  "text": "Welkom bij glazenwasserij Mubo."
-                }
-              ]
-            },
-            {
-              "tag": "div",
-              "attr": {
-                "class": [
-                  "header-nav"
-                ]
-              },
-              "text": "\n            \n        ",
+              "text": "\n    \n  ",
               "child": [
                 {
                   "tag": "div",
                   "attr": {
                     "class": [
-                      "container"
+                      "inner"
                     ]
                   },
-                  "text": "\n                \n            ",
+                  "text": "\n      \n      \n    ",
                   "child": [
                     {
-                      "tag": "div",
+                      "tag": "h3",
                       "attr": {
                         "class": [
-                          "row"
+                          "masthead-brand"
                         ]
                       },
-                      "text": "\n                    \n                ",
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-12"
-                            ]
-                          },
-                          "text": "\n                        \n                        \n                    ",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "navigation"
-                                ]
-                              },
-                              "text": "\n                            \n                        ",
-                              "child": [
-                                {
-                                  "tag": "nav",
-                                  "attr": {
-                                    "class": [
-                                      "navbar",
-                                      "navbar-expand-lg"
-                                    ]
-                                  },
-                                  "text": "\n                                \n                                    \n                                \n                                \n                                    \n                                \n                                \n                                \n                                    \n                                    \n                                    \n                                \n                                \n\n                                \n                                \n                            ",
-                                  "child": [
-                                    {
-                                      "tag": "img",
-                                      "attr": {
-                                        "src": "assets/img/logo.jpg",
-                                        "alt": "Mubo"
-                                      }
-                                    },
-                                    {
-                                      "tag": "img",
-                                      "attr": {
-                                        "src": "assets/img/footer-logo-2.png",
-                                        "alt": "Mubo"
-                                      }
-                                    },
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "collapse",
-                                          "navbar-collapse",
-                                          "sub-menu-bar"
-                                        ],
-                                        "id": "navbarSupportedContent"
-                                      },
-                                      "text": "\n                                    \n                                ",
-                                      "child": [
-                                        {
-                                          "tag": "ul",
-                                          "attr": {
-                                            "class": [
-                                              "navbar-nav",
-                                              "m-auto"
-                                            ]
-                                          },
-                                          "text": "\n                                        \n                                        \n                                        \n                                    ",
-                                          "child": [
-                                            {
-                                              "tag": "li",
-                                              "attr": {
-                                                "class": [
-                                                  "nav-item",
-                                                  "active"
-                                                ]
-                                              },
-                                              "text": "\n                                            Home\n                                            \n                                        "
-                                            },
-                                            {
-                                              "tag": "li",
-                                              "attr": {
-                                                "class": [
-                                                  "nav-item"
-                                                ]
-                                              },
-                                              "text": "\n                                            Services\n                                            \n                                        "
-                                            },
-                                            {
-                                              "tag": "li",
-                                              "attr": {
-                                                "class": [
-                                                  "nav-item"
-                                                ]
-                                              },
-                                              "text": "\n                                            Contact   \n                                            \n                                        "
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "main",
-          "text": "\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\n\t\t\n\t\t\n\t\t\n\t\t\n\t",
-          "child": [
-            {
-              "tag": "section",
-              "attr": {
-                "class": [
-                  "hero-section"
-                ]
-              },
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
-                {
-                  "tag": "div",
-                  "attr": {
-                    "id": "heroSlideActive",
-                    "class": [
-                      "slick-initialized",
-                      "slick-slider"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "slick-list",
-                          "draggable"
-                        ],
-                        "style": "height: 925px;"
-                      },
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "slick-track"
-                            ],
-                            "style": "opacity: 1; width: 7915px; transform: translate3d(-3166px, 0px, 0px);"
-                          },
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-hero-slide",
-                                  "slick-slide",
-                                  "slick-cloned"
-                                ],
-                                "style": "background-image: url("assets/img/hero-image-2.jpg"); width: 1583px;",
-                                "data-slick-index": "-1",
-                                "aria-hidden": "true",
-                                "tabindex": "-1"
-                              },
-                              "text": "\n\t\t\t\t\t\n\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "container"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\n\t\t\t\t\t"
-                                }
-                              ]
-                            },
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-hero-slide",
-                                  "slick-slide"
-                                ],
-                                "style": "background-image: url("assets/img/hero-image.jpg"); width: 1583px;",
-                                "data-slick-index": "0",
-                                "aria-hidden": "true",
-                                "tabindex": "-1"
-                              },
-                              "text": "\n\t\t\t\t\t\n\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "container"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "hero-content",
-                                          "text-center"
-                                        ]
-                                      },
-                                      "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tHeeft u een glazenwasser nodig?\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                                      "child": [
-                                        {
-                                          "tag": "h1",
-                                          "text": "Wij staan voor u klaar\n\t\t\t\t\t\t\t"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-hero-slide",
-                                  "slick-slide",
-                                  "slick-current",
-                                  "slick-active"
-                                ],
-                                "style": "background-image: url("assets/img/hero-image-2.jpg"); width: 1583px;",
-                                "data-slick-index": "1",
-                                "aria-hidden": "false",
-                                "tabindex": "0"
-                              },
-                              "text": "\n\t\t\t\t\t\n\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "container"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\n\t\t\t\t\t"
-                                }
-                              ]
-                            },
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-hero-slide",
-                                  "slick-slide",
-                                  "slick-cloned"
-                                ],
-                                "style": "background-image: url("assets/img/hero-image.jpg"); width: 1583px;",
-                                "data-slick-index": "2",
-                                "aria-hidden": "true",
-                                "tabindex": "-1"
-                              },
-                              "text": "\n\t\t\t\t\t\n\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "container"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "hero-content",
-                                          "text-center"
-                                        ]
-                                      },
-                                      "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tHeeft u een glazenwasser nodig?\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                                      "child": [
-                                        {
-                                          "tag": "h1",
-                                          "text": "Wij staan voor u klaar\n\t\t\t\t\t\t\t"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-hero-slide",
-                                  "slick-slide",
-                                  "slick-cloned"
-                                ],
-                                "style": "background-image: url("assets/img/hero-image-2.jpg"); width: 1583px;",
-                                "data-slick-index": "3",
-                                "aria-hidden": "true",
-                                "tabindex": "-1"
-                              },
-                              "text": "\n\t\t\t\t\t\n\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "container"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\n\t\t\t\t\t"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tag": "section",
-              "attr": {
-                "class": [
-                  "feature-section"
-                ]
-              },
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
-                {
-                  "tag": "div",
-                  "attr": {
-                    "class": [
-                      "container"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "row",
-                          "no-gutters",
-                          "feature-loop"
-                        ]
-                      },
-                      "text": "\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-4",
-                              "col-md-6"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-feature-box"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "icon"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "featre-content"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h4",
-                                      "attr": {
-                                        "class": [
-                                          "title"
-                                        ]
-                                      },
-                                      "text": "Wij gebruiken speciaal reinigingsmiddel."
-                                    },
-                                    {
-                                      "tag": "p",
-                                      "text": "Wij maken gebruik van Osmose water. Dit is gedemineraliseerd water en is water in zijn puurste vorm, dit laat geen strepen en/of vlekken achter"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-4",
-                              "col-md-6"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-feature-box",
-                                  "active"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "icon"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "featre-content"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h4",
-                                      "attr": {
-                                        "class": [
-                                          "title"
-                                        ]
-                                      },
-                                      "text": "Voor de schoonmaak van ramen en meer rondom het huis."
-                                    },
-                                    {
-                                      "tag": "p",
-                                      "text": "Wij bieden de schoonmaak aan van ramen en kozijnen, dakkapellen, zonnepanelen,\n\t\t\t\t\t\t\t\t\tterrasoverkappingen en/of serre."
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-4",
-                              "col-md-6",
-                              "mx-auto"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-feature-box"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "icon"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "featre-content"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h4",
-                                      "attr": {
-                                        "class": [
-                                          "title"
-                                        ]
-                                      },
-                                      "text": "Heeft u een glazenwasser nodig? Wij staan voor u klaar!"
-                                    },
-                                    {
-                                      "tag": "p",
-                                      "text": "Zijn uw ramen of andere voorzieningen rondom het huis aan een wasbeurt toe? Dan bent u bij ons aan het juiste adres. "
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tag": "section",
-              "attr": {
-                "class": [
-                  "about-section",
-                  "pt-130",
-                  "pb-130"
-                ]
-              },
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
-                {
-                  "tag": "div",
-                  "attr": {
-                    "class": [
-                      "container"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "row",
-                          "align-items-center",
-                          "justify-content-between"
-                        ]
-                      },
-                      "text": "\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-6",
-                              "wow",
-                              "fadeInLeft"
-                            ],
-                            "data-wow-delay": ".3s",
-                            "style": "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;"
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "about-img",
-                                  "text-center"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "img",
-                                  "attr": {
-                                    "src": "assets/img/about-img.jpg",
-                                    "alt": "Image"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-6",
-                              "wow",
-                              "fadeInRight"
-                            ],
-                            "data-wow-delay": ".5s",
-                            "style": "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "about-text"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "section-title",
-                                      "left-border",
-                                      "mb-40"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h2",
-                                      "text": "Glazenwasserij Mubo"
-                                    },
-                                    {
-                                      "tag": "p",
-                                      "attr": {
-                                        "class": [
-                                          "title-tag"
-                                        ]
-                                      },
-                                      "text": "Over ons"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "tag": "p",
-                                  "text": "Gespecialiseerd in het wassen van ramen en de voorzieningen rondom het huis. Wij zijn een vriendelijk en professioneel bedrijf gevestigd in Eindhoven en staan altijd voor u klaar! "
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "tag": "section",
-              "attr": {
-                "class": [
-                  "service-section"
-                ],
-                "style": "background-image: url(assets/img/service-bg.png);",
-                "id": "services"
-              },
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
-                {
-                  "tag": "div",
-                  "attr": {
-                    "class": [
-                      "container"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "section-title",
-                          "white-color",
-                          "text-center",
-                          "both-border",
-                          "mb-50"
-                        ]
-                      },
-                      "text": "\n\t\t\t\t\t",
-                      "child": [
-                        {
-                          "tag": "h2",
-                          "text": "Voor meerdere schoonmaak werkzaamheden "
-                        },
-                        {
-                          "tag": "p",
-                          "attr": {
-                            "class": [
-                              "title-tag"
-                            ]
-                          }
-                        }
-                      ]
+                      "text": "Project OP2"
                     },
                     {
-                      "tag": "div",
+                      "tag": "nav",
                       "attr": {
                         "class": [
-                          "row",
-                          "service-loop"
+                          "nav",
+                          "nav-masthead",
+                          "justify-content-center"
                         ]
                       },
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-4",
-                              "col-md-6",
-                              "wow",
-                              "fadeInLeft"
-                            ],
-                            "data-wow-delay": ".3s",
-                            "style": "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;"
-                          },
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-service"
-                                ]
-                              },
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "service-bg"
-                                    ],
-                                    "style": "background-image: url(assets/img/service-1.jpg);"
-                                  }
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "service-content"
-                                    ]
-                                  },
-                                  "child": [
-                                    {
-                                      "tag": "h4",
-                                      "text": "
-\n\t\t\t\t\t\tzijn wij beschikbaar!\n\t\t\t\t\tServices\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tRamen & \n\t\t\t\t\t\t\t\t\t
-Kozijnen"
-                                    },
-                                    {
-                                      "tag": "p"
-                                    }
-                                  ],
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
-                                }
-                              ],
-                              "text": "\n\t\t\t\t\t\t"
-                            }
-                          ],
-                          "text": "\n\t\t\t\t\t"
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-4",
-                              "col-md-6",
-                              "wow",
-                              "fadeInUp"
-                            ],
-                            "data-wow-delay": ".5s",
-                            "style": "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;"
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "single-service",
-                                  "active"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "service-bg"
-                                    ],
-                                    "style": "background-image: url(assets/img/service-2.jpg);"
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t"
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "service-content"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h4",
-                                      "text": "Dakkapellen & Zonnepanelen"
-                                    },
-                                    {
-                                      "tag": "p"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-4",
-                              "col-md-6",
-                              "mx-auto",
-                              "wow",
-                              "fadeInRight"
-                            ],
-                            "data-wow-delay": ".7s",
-                            "style": "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: .7s; -moz-animation-delay: .7s; animation-delay: .7s;"
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "",
-                                  "single-service"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "service-bg"
-                                    ],
-                                    "style": "background-image: url(assets/img/service-3.jpg);"
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t"
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "service-content"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h4",
-                                      "text": "Terasoverkappingen & Serres"
-                                    },
-                                    {
-                                      "tag": "p"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "text": "\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t"
+                      "text": "\n        Home\n        Dice\n        Menu2\n      "
                     }
                   ]
                 }
               ]
             },
             {
-              "tag": "section",
+              "tag": "form",
               "attr": {
-                "class": [
-                  "appointment-section",
-                  "pt-130",
-                  "pb-130"
-                ],
-                "id": "contact"
+                "method": "post",
+                "action": "#"
               },
-              "text": "\n\t\t\t\n\t\t",
+              "text": "\n    \n     \n",
               "child": [
                 {
-                  "tag": "div",
+                  "tag": "input",
                   "attr": {
-                    "class": [
-                      "container"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "row",
-                          "no-gutters"
-                        ]
-                      },
-                      "text": "\n\t\t\t\t\t\n\t\t\t\t",
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-5"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "appointment-text",
-                                  "bg-cover"
-                                ],
-                                "style": "background-image: url(assets/img/appointment-bg.jpg);"
-                              },
-                              "text": "\n\t\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "appointment-content"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "section-title",
-                                          "left-border",
-                                          "mb-40"
-                                        ]
-                                      },
-                                      "text": "\n\t\t\t\t\t\t\t\t\t",
-                                      "child": [
-                                        {
-                                          "tag": "h2",
-                                          "text": "Maak een "
-                                        },
-                                        {
-                                          "tag": "p",
-                                          "attr": {
-                                            "class": [
-                                              "title-tag"
-                                            ]
-                                          }
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "tag": "p"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-7"
-                            ]
-                          },
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "appointment-form"
-                                ]
-                              },
-                              "child": [
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "form-title",
-                                      "bg-cover"
-                                    ]
-                                  },
-                                  "child": [
-                                    {
-                                      "tag": "h2"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "tag": "form",
-                                  "attr": {
-                                    "action": "mail.php",
-                                    "method": "POST",
-                                    "style": "background-image: url(assets/img/app-form-bg.jpg);"
-                                  },
-                                  "child": [
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "input-group",
-                                          "mb-15"
-                                        ]
-                                      },
-                                      "child": [
-                                        {
-                                          "tag": "input",
-                                          "attr": {
-                                            "type": "text",
-                                            "name": "name",
-                                            "placeholder": "Voornaam en achternaam"
-                                          }
-                                        }
-                                      ],
-                                      "text": "
-\n\t\t\t\t\t\t\t\t\t\tafspraak!\n\t\t\t\t\t\t\t\t\tContact opnemen\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tHeeft u een vraag? Wilt u informatie over de werkzaamheden of een prijsaanvraag? Neem dan nu contact met ons op!\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tVraag een prijsopgave aan\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t"
-                                    },
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "input-group",
-                                          "mb-15"
-                                        ]
-                                      },
-                                      "text": "\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t",
-                                      "child": [
-                                        {
-                                          "tag": "input",
-                                          "attr": {
-                                            "type": "text",
-                                            "name": "email",
-                                            "placeholder": "Email adres"
-                                          }
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "input-group",
-                                          "mb-15"
-                                        ]
-                                      },
-                                      "text": "\n\t\t\t\t\t\t\t\t\t
-\n\t\t\t\t\t\t\t\t",
-                                      "child": [
-                                        {
-                                          "tag": "option",
-                                          "attr": {
-                                            "value": "1",
-                                            "disabled": "disabled"
-                                          }
-                                        },
-                                        {
-                                          "tag": "option",
-                                          "attr": {
-                                            "value": "2"
-                                          }
-                                        },
-                                        {
-                                          "tag": "option",
-                                          "attr": {
-                                            "value": "3"
-                                          }
-                                        },
-                                        {
-                                          "tag": "option",
-                                          "attr": {
-                                            "value": "4"
-                                          }
-                                        },
-                                        {
-                                          "tag": "div",
-                                          "attr": {
-                                            "class": [
-                                              "nice-select"
-                                            ],
-                                            "tabindex": "0"
-                                          },
-                                          "text": "Ramen & Kozijnen",
-                                          "child": [
-                                            {
-                                              "tag": "ul",
-                                              "attr": {
-                                                "class": [
-                                                  "list"
-                                                ]
-                                              },
-                                              "child": [
-                                                {
-                                                  "tag": "li",
-                                                  "attr": {
-                                                    "data-value": "1",
-                                                    "class": [
-                                                      "option",
-                                                      "disabled"
-                                                    ]
-                                                  },
-                                                  "text": "Schoonmaak van:"
-                                                },
-                                                {
-                                                  "tag": "li",
-                                                  "attr": {
-                                                    "data-value": "2",
-                                                    "class": [
-                                                      "option",
-                                                      "selected"
-                                                    ]
-                                                  },
-                                                  "text": "Ramen & Kozijnen"
-                                                },
-                                                {
-                                                  "tag": "li",
-                                                  "attr": {
-                                                    "data-value": "3",
-                                                    "class": [
-                                                      "option"
-                                                    ]
-                                                  },
-                                                  "text": "Dakkapellen & Zonnepanelen"
-                                                },
-                                                {
-                                                  "tag": "li",
-                                                  "attr": {
-                                                    "data-value": "4",
-                                                    "class": [
-                                                      "option"
-                                                    ]
-                                                  },
-                                                  "text": "Terrasoverkappingen & Serres"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "tag": "div",
-                                      "attr": {
-                                        "class": [
-                                          "input-group",
-                                          "mb-15"
-                                        ]
-                                      },
-                                      "text": "\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t",
-                                      "child": [
-                                        {
-                                          "tag": "textarea",
-                                          "attr": {
-                                            "name": "message",
-                                            "placeholder": "Schrijf hier u bericht"
-                                          }
-                                        }
-                                      ]
-                                    }
-                                  ],
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t Verstuur aanvraag \n\t\t\t\t\t\t\t"
-                                }
-                              ],
-                              "text": "\n\t\t\t\t\t\t"
-                            }
-                          ],
-                          "text": "\n\t\t\t\t\t"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "div",
-          "attr": {
-            "class": [
-              "go-top-area"
-            ]
-          },
-          "text": "\n\t\t\n\t",
-          "child": [
-            {
-              "tag": "div",
-              "attr": {
-                "class": [
-                  "go-top-wrap"
-                ]
-              },
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
+                    "type": "number",
+                    "name": "number",
+                    "value": "aantal keer dobbelen",
+                    "min": "0",
+                    "max": "6"
+                  }
+                },
                 {
-                  "tag": "div",
+                  "tag": "input",
                   "attr": {
-                    "class": [
-                      "go-top-btn-wrap"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "go-top",
-                          "go-top-btn"
-                        ]
-                      },
-                      "text": "\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "footer",
-          "text": "\n\t\t\n\t\t\n\t",
-          "child": [
-            {
-              "tag": "div",
-              "attr": {
-                "class": [
-                  "footer-widget-area",
-                  "pt-80",
-                  "pb-40"
-                ]
-              },
-              "text": "\n\t\t\t\n\t\t",
-              "child": [
-                {
-                  "tag": "div",
-                  "attr": {
-                    "class": [
-                      "container"
-                    ]
-                  },
-                  "text": "\n\t\t\t\t\n\t\t\t",
-                  "child": [
-                    {
-                      "tag": "div",
-                      "attr": {
-                        "class": [
-                          "row"
-                        ]
-                      },
-                      "text": "\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
-                      "child": [
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-3",
-                              "col-md-6"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "footer-logo",
-                                  "mb-40"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "img",
-                                  "attr": {
-                                    "src": "assets/img/footer-logo.png",
-                                    "alt": "Mubo"
-                                  }
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-3",
-                              "col-md-6"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "widget",
-                                  "about-company",
-                                  "mb-40"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "h4",
-                                  "attr": {
-                                    "class": [
-                                      "widget-title"
-                                    ]
-                                  },
-                                  "text": "Over ons"
-                                },
-                                {
-                                  "tag": "p",
-                                  "text": "Gespecialiseerd in het wassen van ramen en de voorzieningen rondom het huis. Wij zijn een vriendelijk en professioneel bedrijf gevestigd in Eindhoven en staan altijd voor u klaar!"
-                                },
-                                {
-                                  "tag": "ul",
-                                  "attr": {
-                                    "class": [
-                                      "social-link"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "li",
-                                      "text": "  "
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-3",
-                              "col-md-6"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "widget",
-                                  "nav-widget",
-                                  "d-lg-flex",
-                                  "justify-content-lg-center",
-                                  "mb-40"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t"
-                            }
-                          ]
-                        },
-                        {
-                          "tag": "div",
-                          "attr": {
-                            "class": [
-                              "col-lg-3",
-                              "col-md-6"
-                            ]
-                          },
-                          "text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
-                          "child": [
-                            {
-                              "tag": "div",
-                              "attr": {
-                                "class": [
-                                  "widget",
-                                  "contact-widget",
-                                  "mb-40"
-                                ]
-                              },
-                              "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
-                              "child": [
-                                {
-                                  "tag": "h4",
-                                  "attr": {
-                                    "class": [
-                                      "widget-title"
-                                    ]
-                                  },
-                                  "text": "Contact"
-                                },
-                                {
-                                  "tag": "div",
-                                  "attr": {
-                                    "class": [
-                                      "contact-info"
-                                    ]
-                                  },
-                                  "text": "\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
-                                  "child": [
-                                    {
-                                      "tag": "h3",
-                                      "text": "Aarzel niet en "
-                                    },
-                                    {
-                                      "tag": "ul",
-                                      "child": [
-                                        {
-                                          "tag": "li",
-                                          "text": "
- neem contact met ons op!\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t06-31265530"
-                                        },
-                                        {
-                                          "tag": "li",
-                                          "text": "glazenwasserij-mubo@hotmail.com"
-                                        },
-                                        {
-                                          "tag": "li",
-                                          "text": "Reinekenstraat 31, 5654LA Eindhoven"
-                                        },
-                                        {
-                                          "tag": "li",
-                                          "text": "KVK: 78017300"
-                                        }
-                                      ],
-                                      "text": "\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                    "type": "submit",
+                    "name": "submit",
+                    "value": "Submit"
+                  }
                 }
               ]
             },
@@ -1685,17 +141,35 @@ Kozijnen"
               "tag": "div",
               "attr": {
                 "class": [
-                  "copyright-area",
-                  "text-center",
-                  "pt-40",
-                  "pb-40"
+                  "dobbelstenen"
                 ]
               },
-              "text": "\n\t\t\t\n\t\t",
+              "text": "\n"
+            },
+            {
+              "tag": "footer",
+              "attr": {
+                "class": [
+                  "mastfoot",
+                  "mt-auto"
+                ]
+              },
+              "text": "\n    \n  ",
               "child": [
                 {
-                  "tag": "p",
-                  "text": "Copyright Glazenwasserij Mubo - 2020© made by Mitchell van der Wurf"
+                  "tag": "div",
+                  "attr": {
+                    "class": [
+                      "inner"
+                    ]
+                  },
+                  "text": "\n      \n    ",
+                  "child": [
+                    {
+                      "tag": "p",
+                      "text": "Copyright © Mitchell van der Wurf 2020."
+                    }
+                  ]
                 }
               ]
             }
@@ -1703,6 +177,5 @@ Kozijnen"
         }
       ]
     }
-  ],
-  "text": "\n\n"
+  ]
 }
